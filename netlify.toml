@@ -1,0 +1,113 @@
+[build]
+  publish = "."
+
+# ── Force HTTPS + www → non-www canonical redirect ──────────────────
+[[redirects]]
+  from = "https://www.ahmetcanyesildag.com/*"
+  to   = "https://ahmetcanyesildag.com/:splat"
+  status = 301
+  force  = true
+
+# ── Security + Performance Headers ──────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://connect.facebook.net https://www.google-analytics.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.facebook.com https://www.google-analytics.com https://*.googleusercontent.com https://cdn.prod.website-files.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://connect.facebook.net https://region1.google-analytics.com"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Clean URL Redirects ─────────────────────────────────────────────
+[[redirects]]
+  from = "/books"
+  to = "/books.html"
+  status = 200
+
+[[redirects]]
+  from = "/books/"
+  to = "/books.html"
+  status = 200
+
+[[redirects]]
+  from = "/orophile"
+  to = "/orophile.html"
+  status = 200
+
+[[redirects]]
+  from = "/orophile/"
+  to = "/orophile.html"
+  status = 200
+
+[[redirects]]
+  from = "/media"
+  to = "/media.html"
+  status = 200
+
+[[redirects]]
+  from = "/media/"
+  to = "/media.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/documents"
+  to = "/documents.html"
+  status = 200
+
+[[redirects]]
+  from = "/documents/"
+  to = "/documents.html"
+  status = 200
+
+[[redirects]]
+  from = "/toolkit"
+  to = "/toolkit.html"
+  status = 200
+
+[[redirects]]
+  from = "/toolkit/"
+  to = "/toolkit.html"
+  status = 200
+
+# ── Legacy Redirects ────────────────────────────────────────────────
+[[redirects]]
+  from = "/signals-and-noise"
+  to = "/blog/signals-and-noise"
+  status = 301
+
+[[redirects]]
+  from = "/signals-and-noise/"
+  to = "/blog/signals-and-noise"
+  status = 301
+
+# ── 404 Catch-All (must be LAST) ───────────────────────────────────
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

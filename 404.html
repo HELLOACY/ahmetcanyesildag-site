@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found — Ahmet Can Yeşildağ</title>
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:      #FAF7F2;
+      --gold:       #C9A96E;
+      --gold-light: #E8D5B0;
+      --ink:        #1A1714;
+      --ink-soft:   #7A7369;
+      --ff-display: 'Cormorant Garamond', Georgia, serif;
+      --ff-body:    'Jost', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--ink);
+      color: var(--cream);
+      font-family: var(--ff-body);
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .nav {
+      background: rgba(26,23,20,0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(201,169,110,0.15);
+      padding: 0 40px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-brand {
+      font-family: var(--ff-display);
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--cream);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .nav-back {
+      font-family: var(--ff-body);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      text-decoration: none;
+    }
+    .nav-back:hover { color: var(--gold); }
+
+    .error-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 40px;
+      gap: 24px;
+    }
+
+    .error-code {
+      font-family: var(--ff-display);
+      font-size: clamp(80px, 12vw, 140px);
+      font-weight: 400;
+      color: rgba(201,169,110,0.15);
+      line-height: 1;
+      letter-spacing: 0.05em;
+    }
+
+    .error-title {
+      font-family: var(--ff-display);
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 400;
+      color: var(--cream);
+      line-height: 1.2;
+    }
+
+    .error-subtitle {
+      font-family: var(--ff-display);
+      font-style: italic;
+      font-size: clamp(16px, 2vw, 20px);
+      color: rgba(250,247,242,0.5);
+      max-width: 480px;
+      line-height: 1.6;
+    }
+
+    .error-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .error-link {
+      font-family: var(--ff-body);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 12px 28px;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+    .error-link--primary {
+      background: var(--gold);
+      color: var(--ink);
+    }
+    .error-link--primary:hover { background: #B8925A; }
+    .error-link--outline {
+      border: 1px solid rgba(201,169,110,0.3);
+      color: var(--gold);
+    }
+    .error-link--outline:hover { border-color: var(--gold); background: rgba(201,169,110,0.05); }
+
+    .footer {
+      border-top: 1px solid rgba(201,169,110,0.1);
+      padding: 24px 40px;
+      text-align: center;
+    }
+    .footer-copy {
+      font-family: var(--ff-body);
+      font-size: 11px;
+      color: rgba(250,247,242,0.25);
+    }
+  </style>
+  <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <a href="/" class="nav-brand">A. C. Yeşildağ</a>
+    <a href="/" class="nav-back">← Back to Home</a>
+  </nav>
+
+  <main class="error-content">
+    <p class="error-code">404</p>
+    <h1 class="error-title">This Page Doesn't Exist</h1>
+    <p class="error-subtitle">The path you followed may have been moved, renamed, or never existed. Let me guide you somewhere useful instead.</p>
+    <div class="error-links">
+      <a href="/" class="error-link error-link--primary">Go to Homepage</a>
+      <a href="/blog" class="error-link error-link--outline">Read Articles</a>
+      <a href="/toolkit" class="error-link error-link--outline">Browse Toolkit</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-copy">&copy; 2026 Ahmet Can Yeşildağ</p>
+  </footer>
+
+</body>
+</html>
