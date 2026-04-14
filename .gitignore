@@ -8,3 +8,11 @@ node_modules/
 .vscode/
 .idea/
 *.zip
+
+# Nested build artifacts / old snapshots
+site-v*/
+ahmetcanyesildag-v*/
+*.bak
+*.tmp
+# Internal strategy & confidential docs — never commit
+.internal/
