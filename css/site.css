@@ -184,12 +184,17 @@
       position: relative;
       background: var(--dark-section);
       overflow: hidden;
+      aspect-ratio: 4/5;
+      min-height: 100%;
+    }
+    @media (max-width: 991px) {
+      .hero-right { aspect-ratio: 3/4; }
     }
     .hero-portrait {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center top;
+      object-position: 50% 20%;
       opacity: 0.85;
       display: block;
     }
@@ -499,12 +504,16 @@
       margin-top: 14px;
       width: 220px;
       max-width: 100%;
+      aspect-ratio: 4/5;
+      overflow: hidden;
       border: 1px solid rgba(201,169,110,0.25);
     }
     .timeline-photo img {
       width: 100%;
+      height: 100%;
       display: block;
       object-fit: cover;
+      object-position: 50% 25%;
     }
     .timeline-photo-caption {
       font-family: var(--ff-body);
@@ -569,7 +578,7 @@
       justify-content: center;
       overflow: hidden;
     }
-    .insight-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; }
+    .insight-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; opacity: 1; }
     .insight-body {
       padding: 24px;
       border-top: 1px solid var(--gold-light);
@@ -1226,6 +1235,7 @@
       height: 90px;
       border-radius: 6px;
       object-fit: cover;
+      object-position: 50% 25%;
       border: 1px solid rgba(201,169,110,0.3);
     }
     .cred-award-body { flex: 1; min-width: 0; }
