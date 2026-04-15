@@ -1,7 +1,7 @@
 /*!
  * affiliate.js — ahmetcanyesildag.com
- * v2.0 — Upgraded affiliate engine with expanded programs, impression
- *        tracking, UTM content attribution, and session deduplication.
+ * v2.2 — Expedia Travel Creator tag ahmet_can_yesildag wired in (April 2026).
+ *        GetYourGuide Y5ZZCAJ live. rel="sponsored" enforced. Coursera pending Impact.com.
  *
  * HOW IT WORKS
  * 1. Every affiliate link in the HTML carries a data-affiliate="<key>" attribute.
@@ -26,8 +26,9 @@
  *  8. Away Luggage        → awaytravel.com (ShareASale/CJ)   (luggage, ~6%)
  *  9. MasterClass         → masterclass.com/affiliates       (learning, 25%)
  * 10. Viator              → partner.viator.com               (experiences, 8%)
- * 11. GetYourGuide        → partner.getyourguide.com         (experiences, 8%)
- * 12. Mr & Mrs Smith      → mrandmrssmith.com/affiliates     (luxury hotels, ~5%)
+ * 11. GetYourGuide        → partner.getyourguide.com         (experiences, 8%) ✓ LIVE
+ * 12. Expedia Travel      → creator.expediagroup.com         (hotels/flights/pkg) ✓ LIVE
+ * 13. Mr & Mrs Smith      → mrandmrssmith.com/affiliates     (luxury hotels, ~5%)
  * 13. Tablet Hotels       → tablethotels.com/affiliates      (luxury hotels, ~5%)
  * 14. Villiers Jets       → villiers.co.uk/affiliates        (private aviation, 30%)
  * 15. Sandals Resorts     → sandals.com/affiliates           (all-inclusive, 4%)
@@ -43,18 +44,18 @@
     // ── Books / Media ──────────────────────────────────────────────────────
     'amazon-book': {
       param: 'tag',
-      id: 'PLACEHOLDER_AMAZON_TAG',         // e.g. 'ahmetcan-20'
-      network: 'Amazon Associates'
+      id: 'ahmetcanyes07-20',               // Amazon.ca Associates — LIVE
+      network: 'Amazon Associates (CA)'
     },
     'amazon': {
       param: 'tag',
-      id: 'PLACEHOLDER_AMAZON_TAG',
-      network: 'Amazon Associates'
+      id: 'ahmetcanyes07-20',               // Amazon.ca Associates — LIVE
+      network: 'Amazon Associates (CA)'
     },
     'audible': {
       param: 'tag',
-      id: 'PLACEHOLDER_AMAZON_TAG',         // Audible uses same Associates tag
-      network: 'Amazon/Audible'
+      id: 'ahmetcanyes07-20',               // Audible CA uses same Associates tag
+      network: 'Amazon/Audible (CA)'
     },
 
     // ── Hotels & Accommodation ─────────────────────────────────────────────
@@ -94,8 +95,23 @@
     },
     'getyourguide': {
       param: 'partner_id',
-      id: 'PLACEHOLDER_GYG_PARTNER',
+      id: 'Y5ZZCAJ',                         // GetYourGuide — LIVE (8% commission)
       network: 'GetYourGuide'
+    },
+    'expedia': {
+      param: 'afflid',
+      id: 'ahmet_can_yesildag',              // Expedia Travel Creator — LIVE
+      network: 'Expedia Travel Creator (CA)'
+    },
+    'expedia-hotels': {
+      param: 'afflid',
+      id: 'ahmet_can_yesildag',              // Expedia Hotels — LIVE
+      network: 'Expedia Travel Creator (CA)'
+    },
+    'expedia-packages': {
+      param: 'afflid',
+      id: 'ahmet_can_yesildag',              // Expedia Packages — LIVE
+      network: 'Expedia Travel Creator (CA)'
     },
 
     // ── Wellness Products ─────────────────────────────────────────────────

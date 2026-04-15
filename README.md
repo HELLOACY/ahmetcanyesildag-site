@@ -1,6 +1,6 @@
 # ahmetcanyesildag.com
 
-Personal authority site of Ahmet Can Yeşildağ — hospitality executive, Orophile founder, and Cornell General Managers Program alumnus (GPA 4.59).
+Personal authority site of Ahmet Can Yesildag — hospitality executive, Orophile founder, and Cornell General Managers Program alumnus (GPA 4.59).
 
 **Live:** https://ahmetcanyesildag.com
 **Stack:** Static HTML/CSS (Webflow export) → Netlify (GitHub-connected deploy)
