@@ -124,6 +124,24 @@
   to = "/blog"
   status = 301
 
+# ── Deploy Preview / Branch Deploy Hardening ───────────────────────
+# Block search engines from indexing any non-production context.
+# Prevents a shared deploy-preview URL from outranking or impersonating production.
+[context.deploy-preview]
+  [context.deploy-preview.environment]
+    # Optional: flag that previews are non-production to any build scripts.
+    IS_PREVIEW = "true"
+
+[[context.deploy-preview.headers]]
+  for = "/*"
+  [context.deploy-preview.headers.values]
+    X-Robots-Tag = "noindex, nofollow, nosnippet, noarchive"
+
+[[context.branch-deploy.headers]]
+  for = "/*"
+  [context.branch-deploy.headers.values]
+    X-Robots-Tag = "noindex, nofollow, nosnippet, noarchive"
+
 # ── 404 Catch-All (must be LAST) ───────────────────────────────────
 [[redirects]]
   from = "/*"
