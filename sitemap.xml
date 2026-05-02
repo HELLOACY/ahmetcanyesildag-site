@@ -1,111 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        hxmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+                xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Homepage -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://ahmetcanyesildag.com/images/hero-portrait.jpg</himage:loc>
-      <image:title>Ahmet Can Yesildag — Global Hospitality Leader</image:title>
-      <image:caption>Ahmet Can Yesildag, Cornell alumnus and Skål International President, at the Fairmont Royal York.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://ahmetcanyesildag.com/images/radisson-award-2014.jpg</image:loc>
-      <image:title>Radisson Hotel Group — Best Performance Hotel Award 2014</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://ahmetcanyesildag.com/images/skal-president.jpg</image:loc>
-      <image:title>Skål International Presidency</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://ahmetcanyesildag.com/images/cornell-class-2015.jpg</image:loc>
-      <image:title>Cornell University General Managers Program — Class of January 2015</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://ahmetcanyesildag.com/images/og-ahmet-can-yesildag.jpg</image:loc>
-      <image:title>Ahmet Can Yesildag — Editorial Portrait</image:title>
-    </image:image>
-  </url>
+          <!-- Homepage -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>weekly</changefreq>
+                      <priority>1.0</priority>
+                      <image:image>
+                                    <image:loc>https://ahmetcanyesildag.com/images/hero-portrait.jpg</image:loc>
+                                    <image:title>Ahmet Can Yesildag — Global Hospitality Leader</image:title>
+                                    <image:caption>Ahmet Can Yesildag, Cornell alumnus and Skål International President, at the Fairmont Royal York.</image:caption>
+                      </image:image>
+                      <image:image>
+                                    <image:loc>https://ahmetcanyesildag.com/images/radisson-award-2014.jpg</image:loc>
+                                    <image:title>Radisson Hotel Group — Best Performance Hotel Award 2014</image:title>
+                      </image:image>
+                      <image:image>
+                                    <image:loc>https://ahmetcanyesildag.com/images/skal-president.jpg</image:loc>
+                                    <image:title>Skål International Presidency</image:title>
+                      </image:image>
+                      <image:image>
+                                    <image:loc>https://ahmetcanyesildag.com/images/cornell-class-2015.jpg</image:loc>
+                                    <image:title>Cornell University General Managers Program — Class of January 2015</image:title>
+                      </image:image>
+                      <image:image>
+                                    <image:loc>https://ahmetcanyesildag.com/images/og-ahmet-can-yesildag.jpg</image:loc>
+                                    <image:title>Ahmet Can Yesildag — Editorial Portrait</image:title>
+                      </image:image>
+          </url>
 
-  <!-- Orophile brand page -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/orophile</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ahmetcanyesildag.com/images/orophile-mountain.jpg</image:loc>
-      <image:title>Orophile Journeys — The Landscape Pharmacy</image:title>
-      <image:caption>Mountain wellness travel curated by Ahmet Can Yesildag.</image:caption>
-    </image:image>
-  </url>
+          <!-- Orophile Brand -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/orophile</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.9</priority>
+                      <image:image>
+                                    <image:loc>https://ahmetcanyesildag.com/images/orophile-logo.png</image:loc>
+                                    <image:title>Orophile — Curated Luxury Lifestyle Brand</image:title>
+                      </image:image>
+          </url>
 
-  <!-- Books / Reading Room -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/books</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+          <!-- Reading Room / Books -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/books</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.8</priority>
+          </url>
 
-  <!-- Blog & Articles -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/blog</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+          <!-- Blog & Articles -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/blog</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>weekly</changefreq>
+                      <priority>0.9</priority>
+          </url>
 
-  <!-- Media Library -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/media</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+          <!-- Media Library -->
+                    <url>
+                                <loc>https://ahmetcanyesildag.com/media</loc>
+                                <lastmod>2026-05-02</lastmod>
+                                <changefreq>monthly</changefreq>
+                                <priority>0.7</priority>
+                    </url>
 
-  <!-- Documents Library (updated with Insider's Guide to Wellness Retreats + Orophile Overview) -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/documents</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+          <!-- Documents Library -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/documents</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.8</priority>
+          </url>
 
-  <!-- Toolkit — Curated Recommendations -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/toolkit</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+          <!-- Toolkit — Curated Recommendations -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/toolkit</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.7</priority>
+          </url>
 
-  <!-- Blog Article: Excellence Governed at the Top -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/blog/excellence-governed-at-the-top</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+          <!-- Blog Article: Excellence Governed at the Top -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/blog/excellence-governed-at-the-top</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.8</priority>
+          </url>
 
-  <!-- Blog Article: The Mountain as the New Boardroom -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/blog/mountain-as-boardroom</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+          <!-- Blog Article: The Mountain as the New Boardroom -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/blog/mountain-as-boardroom</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.8</priority>
+          </url>
 
-  <!-- Blog Article: Cornell Standards in the Canadian Classroom -->
-  <url>
-    <loc>https://ahmetcanyesildag.com/blog/cornell-standards-canadian-classroom</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+          <!-- Blog Article: Cornell Standards in the Canadian Classroom -->
+          <url>
+                      <loc>https://ahmetcanyesildag.com/blog/cornell-standards-canadian-classroom</loc>
+                      <lastmod>2026-05-02</lastmod>
+                      <changefreq>monthly</changefreq>
+                      <priority>0.8</priority>
+          </url>
 
 </urlset>
