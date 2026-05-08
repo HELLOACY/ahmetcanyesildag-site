@@ -229,14 +229,15 @@
 
     .about-portrait-wrap {
       position: relative;
-      padding-bottom: 24px;
-      padding-right: 24px;
+      padding-bottom: 14px;
+      padding-right: 0;
+      padding-left: 14px;
     }
     .about-portrait {
       width: 100%;
-      aspect-ratio: 4/5;
+      aspect-ratio: 3/2;
       object-fit: cover;
-      object-position: 45% 35%;
+      object-position: 50% 35%;
       display: block;
       position: relative;
       z-index: 1;
@@ -244,10 +245,32 @@
     }
     .about-portrait-frame {
       position: absolute;
-      top: 24px; left: 24px;
-      right: 0; bottom: 0;
-      border: 1px solid rgba(201,169,110,0.5);
+      top: 14px; left: 0;
+      right: -14px; bottom: 0;
+      border: 1px solid rgba(201,169,110,0.45);
       z-index: 0;
+    }
+    .about-cornell-caption {
+      margin-top: 18px;
+      padding: 14px 18px;
+      border-left: 2px solid var(--gold);
+      background: rgba(201,169,110,0.06);
+    }
+    .about-cornell-caption-eyebrow {
+      font-family: var(--ff-body);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 0 0 6px;
+    }
+    .about-cornell-caption-text {
+      font-family: var(--ff-display);
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--ink-mid);
+      font-style: italic;
+      margin: 0;
     }
     .credentials {
       margin-top: 36px;
