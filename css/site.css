@@ -236,6 +236,7 @@
     .about-portrait {
       width: 100%;
       aspect-ratio: 3/2;
+      height: auto;
       object-fit: cover;
       object-position: 50% 35%;
       display: block;
