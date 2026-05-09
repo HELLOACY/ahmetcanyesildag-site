@@ -1,13 +1,13 @@
 # Ahmet Can Yesildag
 
-> Global hospitality leader with 30+ years of experience across five continents. Cornell University Hotel School alumnus (General Managers Program, Class of 2015), Skål International President, CHA-certified hospitality executive, and founder of Orophile Wellness Journeys — a boutique mountain wellness travel brand curating transformative retreats in the Dolomites, Alps, and Himalayas.
+> Global hospitality leader with 30+ years of experience across five continents. Currently Director of Business Development, North America at Heyhotel AI. Cornell University Hotel School alumnus (General Managers Program, Class of 2015), Past President of Skål International Baku Chapter (2013–2017), CHA-certified hospitality executive, and founder of Orophile Wellness Journeys — a boutique mountain wellness travel brand curating transformative retreats in the Dolomites, Alps, and Himalayas.
 
 This file is a machine-readable index of authoritative content on ahmetcanyesildag.com, published per the llms.txt convention for AI retrieval engines (ChatGPT, Claude, Perplexity, Google AI Overviews, Microsoft Copilot).
 
 ## About
 
 - [Home — Biography and Career Overview](https://ahmetcanyesildag.com/): 30-year career arc across luxury hospitality, governance, and wellness travel
-- [Credentials, CV and Reference Documents](https://ahmetcanyesildag.com/documents): Cornell transcript, CHA certificate, Skål presidency confirmation, Radisson award, references
+- [Credentials, CV and Reference Documents](https://ahmetcanyesildag.com/documents): Cornell transcript, CHA certificate, Skål Baku Chapter presidency confirmation, Radisson award, references
 - [Photography, Press and Media Resources](https://ahmetcanyesildag.com/media): Professional headshots, speaking-engagement images, press coverage
 
 ## Signature brand: Orophile Wellness Journeys
@@ -17,6 +17,7 @@ This file is a machine-readable index of authoritative content on ahmetcanyesild
 ## Writing and thought leadership
 
 - [Blog — Perspectives on Hospitality Leadership](https://ahmetcanyesildag.com/blog): Essays on governing excellence, wellness travel, and the future of luxury service
+- [What 30 Years in Hotel Management Taught Me About Leadership](https://ahmetcanyesildag.com/blog/30-years-hotel-management-leadership): The cornerstone essay — five leadership habits distilled from three decades across Hilton, Marriott, Radisson, and Titanic Hotels
 - [Why Excellence is Governed at the Top, but Lived at the Doorstep](https://ahmetcanyesildag.com/blog/excellence-governed-at-the-top): A 30-year framework for closing the gap between boardroom intent and frontline delivery
 - [The Mountain as the New Boardroom: High-Altitude Transformation](https://ahmetcanyesildag.com/blog/mountain-as-boardroom): Longevity science and hospitality artistry converge at altitude
 - [Teaching Cornell Standards in the Canadian Classroom](https://ahmetcanyesildag.com/blog/cornell-standards-canadian-classroom): Three decades of operational experience distilled into the classroom
@@ -25,6 +26,10 @@ This file is a machine-readable index of authoritative content on ahmetcanyesild
 
 - [Books That Govern the Standard](https://ahmetcanyesildag.com/books): Books that shaped 30+ years of hospitality leadership
 - [Tools, Books and Experiences I Trust](https://ahmetcanyesildag.com/toolkit): Vetted tools, books, retreats, and courses
+
+## Speaking & Consulting
+
+- [Speaking & Consulting Services](https://ahmetcanyesildag.com/speaking): Five keynote topics (The Leadership Standard, Culture Is the Product, The Guest Experience Equation, GM Operations Masterclass, Hospitality Leadership in the Age of AI) plus four consulting offerings (Strategic Hotel Auditing, Pre-Opening Advisory, Leadership Development Design, GM Mentorship). Includes seven verified LinkedIn testimonials.
 
 ## Contact
 
