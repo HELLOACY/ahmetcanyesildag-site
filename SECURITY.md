@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in this project, please report it responsibly.
 
-**Contact:** ahmetcanyesildag@gmail.com
+**Contact:** ahmetcan@ahmetcanyesildag.com
 
 Please include a description of the vulnerability, steps to reproduce it, and any potential impact. I will acknowledge receipt within 48 hours and work to address the issue promptly.
 
