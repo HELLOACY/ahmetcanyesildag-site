@@ -137,9 +137,12 @@
     /* ── SECTION HEADERS ── */
     .tk-section { padding: 72px 0 0; }
     .tk-section:last-of-type { padding-bottom: 80px; }
-    .section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 40px; }
+    .section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
     .section-label { font-family: var(--ff-body); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); white-space: nowrap; }
     .section-line { flex: 1; height: 1px; background: var(--gold-light); }
+    .section-banner { margin: 0 0 40px; overflow: hidden; border-radius: 2px; aspect-ratio: 3 / 1; background: var(--gold-pale); }
+    .section-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    @media (max-width: 767px) { .section-banner { aspect-ratio: 5 / 2; } }
 
     /* ── RECOMMENDATION CARDS ── */
     .tk-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
@@ -341,6 +344,9 @@
         <p class="section-label">Travel Essentials</p>
         <div class="section-line"></div>
       </div>
+      <div class="section-banner">
+        <img src="/images/toolkit-travel.jpg" alt="Editorial travel lifestyle imagery — passports, leather luggage, considered packing" width="1200" height="400" loading="lazy" decoding="async">
+      </div>
       <div class="tk-grid">
 
         <!-- Booking.com -->
@@ -401,6 +407,9 @@
         <p class="section-label">Books I Recommend</p>
         <div class="section-line"></div>
       </div>
+      <div class="section-banner">
+        <img src="/images/toolkit-books.jpg" alt="Editorial library imagery — open hardback book, considered reading, quiet study" width="1200" height="400" loading="lazy" decoding="async">
+      </div>
       <div class="tk-grid">
 
         <!-- Breath by James Nestor -->
@@ -438,6 +447,9 @@
         <p class="section-label">Courses &amp; Education</p>
         <div class="section-line"></div>
       </div>
+      <div class="section-banner">
+        <img src="/images/cornell-class-2015.jpg?v=2" alt="Cornell University General Managers Program — hospitality executive education" width="1125" height="1141" loading="lazy" decoding="async">
+      </div>
       <div class="tk-grid">
 
         <!-- Cornell / Coursera -->
@@ -471,6 +483,9 @@
       <div class="section-header">
         <p class="section-label">Wellness &amp; Restoration</p>
         <div class="section-line"></div>
+      </div>
+      <div class="section-banner">
+        <img src="/images/orophile-mountain.jpg?v=2" alt="The Dolomites — Orophile Wellness Journeys reset destination" width="1200" height="1200" loading="lazy" decoding="async">
       </div>
       <div class="tk-grid">
 
