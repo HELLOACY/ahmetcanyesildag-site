@@ -29,6 +29,21 @@
     src="https://www.facebook.com/tr?id=1498950544240091&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
+    <!-- Amplitude Browser SDK 2 + Autocapture - Gated behind Cookiebot "statistics" consent -->
+    <script type="text/plain" data-cookieconsent="statistics" src="https://cdn.amplitude.com/script/c81547da8d42e68888eb7b02734c1bf4.js"></script>
+    <script type="text/plain" data-cookieconsent="statistics">
+          window.amplitude && window.amplitude.init("c81547da8d42e68888eb7b02734c1bf4", {
+            autocapture: {
+              attribution: true,
+              pageViews: true,
+              sessions: true,
+              formInteractions: true,
+              fileDownloads: true,
+              elementInteractions: true
+            }
+          });
+    </script>
+    <!-- /Amplitude -->
   <meta charset="UTF-8">
   <link rel="manifest" href="/manifest.json">
   <meta name="viewport" content="width=device-width, initial-scale=1">
