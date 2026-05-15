@@ -41,15 +41,15 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ahmetcanyesildag.com/toolkit">
   <meta property="og:title" content="The Curator's Toolkit — Ahmet Can Yesildag">
-  <meta property="og:description" content="Personally vetted tools, books, retreats, and courses curated from 30+ years across Hilton, Radisson, Marriott, and Cornell — by Ahmet Can Yesildag, hospitality executive and Skål President.">
+  <meta property="og:description" content="Personally vetted tools, books, retreats, and courses curated from 30+ years across Hilton, Radisson, Marriott, and Cornell — by Ahmet Can Yesildag, hospitality executive and Past President of Skål International Baku Chapter.">
   <meta property="og:image" content="https://ahmetcanyesildag.com/images/og-ahmet-can-yesildag.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Ahmet Can Yesildag — The Curator's Toolkit">
   <meta property="og:locale" content="en_CA">
   <meta property="og:site_name" content="Ahmet Can Yesildag">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@ahmetcanyesildag">
-  <meta name="twitter:creator" content="@ahmetcanyesildag">
   <meta name="twitter:title" content="The Curator's Toolkit — Ahmet Can Yesildag">
   <meta name="twitter:image" content="https://ahmetcanyesildag.com/images/og-ahmet-can-yesildag.jpg">
 
@@ -137,12 +137,9 @@
     /* ── SECTION HEADERS ── */
     .tk-section { padding: 72px 0 0; }
     .tk-section:last-of-type { padding-bottom: 80px; }
-    .section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+    .section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 40px; }
     .section-label { font-family: var(--ff-body); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); white-space: nowrap; }
     .section-line { flex: 1; height: 1px; background: var(--gold-light); }
-    .section-banner { margin: 0 0 40px; overflow: hidden; border-radius: 2px; aspect-ratio: 3 / 1; background: var(--gold-pale); }
-    .section-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    @media (max-width: 767px) { .section-banner { aspect-ratio: 5 / 2; } }
 
     /* ── RECOMMENDATION CARDS ── */
     .tk-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
@@ -248,19 +245,22 @@
       justify-content: center;
       text-align: center;
       min-height: 240px;
+      opacity: 0.7;
+      cursor: default;
+      pointer-events: none;
     }
     .tk-placeholder-text {
       font-family: var(--ff-display);
       font-style: italic;
       font-size: 18px;
-      color: rgba(26,23,20,0.2);
+      color: rgba(26,23,20,0.35);
     }
     .tk-placeholder-sub {
       font-family: var(--ff-body);
       font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: rgba(26,23,20,0.12);
+      color: rgba(26,23,20,0.25);
     }
 
     /* ── FULL-WIDTH CTA ── */
@@ -344,9 +344,6 @@
         <p class="section-label">Travel Essentials</p>
         <div class="section-line"></div>
       </div>
-      <div class="section-banner">
-        <img src="/images/toolkit-travel.jpg" alt="Editorial travel lifestyle imagery — passports, leather luggage, considered packing" width="1200" height="400" loading="lazy" decoding="async">
-      </div>
       <div class="tk-grid">
 
         <!-- Booking.com -->
@@ -407,9 +404,6 @@
         <p class="section-label">Books I Recommend</p>
         <div class="section-line"></div>
       </div>
-      <div class="section-banner">
-        <img src="/images/toolkit-books.jpg" alt="Editorial library imagery — open hardback book, considered reading, quiet study" width="1200" height="400" loading="lazy" decoding="async">
-      </div>
       <div class="tk-grid">
 
         <!-- Breath by James Nestor -->
@@ -447,9 +441,6 @@
         <p class="section-label">Courses &amp; Education</p>
         <div class="section-line"></div>
       </div>
-      <div class="section-banner">
-        <img src="/images/cornell-class-2015.jpg?v=2" alt="Cornell University General Managers Program — hospitality executive education" width="1125" height="1141" loading="lazy" decoding="async">
-      </div>
       <div class="tk-grid">
 
         <!-- Cornell / Coursera -->
@@ -484,9 +475,6 @@
         <p class="section-label">Wellness &amp; Restoration</p>
         <div class="section-line"></div>
       </div>
-      <div class="section-banner">
-        <img src="/images/orophile-mountain.jpg?v=2" alt="The Dolomites — Orophile Wellness Journeys reset destination" width="1200" height="1200" loading="lazy" decoding="async">
-      </div>
       <div class="tk-grid">
 
         <!-- Orophile CTA (non-affiliate, brand asset) -->
@@ -513,6 +501,21 @@
   </section>
 
   <!-- ══════════════════════════════════════════════════════════════ -->
+  <!-- CLOSING CTA — Work With Ahmet (v33-B)                          -->
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <section class="closing-cta" style="background:var(--cream);padding:80px 0;border-top:1px solid var(--gold-light);">
+    <div class="w-container">
+      <div style="max-width:640px;margin:0 auto;text-align:center;">
+        <p style="font-family:var(--ff-body);font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;">Work With Ahmet</p>
+        <h2 style="font-family:var(--ff-display);font-weight:400;font-size:clamp(28px,4vw,40px);color:var(--ink);line-height:1.2;margin-bottom:20px;">Want this kind of <em>curation</em> applied to your team or property?</h2>
+        <p style="font-family:var(--ff-display);font-style:italic;font-size:17px;color:var(--ink-soft);line-height:1.6;margin-bottom:32px;">The same standards that filter what appears on this page are the ones I bring to hotel-group consulting, executive workshops, and GM mentorship.</p>
+        <a href="/speaking" style="display:inline-block;padding:14px 32px;background:var(--gold);color:var(--ink);font-family:var(--ff-body);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-weight:500;margin:0 8px 8px 0;">Speaking &amp; Consulting →</a>
+        <a href="/#contact" style="display:inline-block;padding:13px 32px;border:1px solid var(--gold);color:var(--ink);font-family:var(--ff-body);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;margin:0 8px 8px 0;">Send a Message →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════ -->
   <!-- FULL DISCLOSURE                                                -->
   <!-- ══════════════════════════════════════════════════════════════ -->
   <section id="disclosure" style="background:var(--ink);padding:64px 0;">
@@ -520,7 +523,7 @@
       <div style="max-width:720px;margin:0 auto;">
         <p style="font-family:var(--ff-body);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(201,169,110,0.6);margin-bottom:16px;">Affiliate Disclosure</p>
         <p style="font-family:var(--ff-body);font-size:14px;color:rgba(250,247,242,0.6);line-height:1.8;">This page contains affiliate links to products and services I personally use, have tested, or endorse based on my professional experience. When you purchase through these links, I may earn a small commission at no additional cost to you. This revenue supports the creation of quality content on this website, the development of Orophile Wellness Journeys, and the continuation of my educational and mentorship initiatives.</p>
-        <p style="font-family:var(--ff-body);font-size:14px;color:rgba(250,247,242,0.6);line-height:1.8;margin-top:16px;">I never recommend a product or service solely for its commission potential. Every recommendation on this page reflects genuine personal use or professional evaluation. My reputation as a Cornell-certified hospitality professional, Sk&aring;l International President, and educator depends on it.</p>
+        <p style="font-family:var(--ff-body);font-size:14px;color:rgba(250,247,242,0.6);line-height:1.8;margin-top:16px;">I never recommend a product or service solely for its commission potential. Every recommendation on this page reflects genuine personal use or professional evaluation. My reputation as a Cornell-certified hospitality professional, Past President of Sk&aring;l International Baku Chapter, and educator depends on it.</p>
         <p style="font-family:var(--ff-body);font-size:12px;color:rgba(250,247,242,0.3);line-height:1.7;margin-top:24px;">In compliance with the Federal Trade Commission (FTC) 16 CFR Part 255, the Canadian Competition Act, and applicable advertising standards, this disclosure is provided to ensure full transparency. For questions about any recommendation, please <a href="/#contact" style="color:var(--gold);text-decoration:none;">contact me directly</a>.</p>
       </div>
     </div>
