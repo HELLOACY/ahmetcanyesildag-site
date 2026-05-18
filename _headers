@@ -1,0 +1,14 @@
+/assets/videos/*
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: video/mp4
+
+/assets/images/hero-poster.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/og-card.jpg
+  Cache-Control: public, max-age=300, must-revalidate
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
