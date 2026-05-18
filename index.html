@@ -436,6 +436,48 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="/css/site.css">
+    <!-- ACY hero stylesheet + asset preloads -->
+    <link rel="stylesheet" href="/css/custom-hero.css">
+    <link rel="preload" as="video" href="/assets/videos/acy_website_hero_final.mp4" type="video/mp4">
+    <link rel="preload" as="image" href="/assets/images/hero-poster.jpg">
+
+    <!-- Open Graph + Twitter card -->
+    <meta property="og:title" content="Ahmet Can Yeşildağ — Hospitality Leader, Educator, Founder">
+    <meta property="og:description" content="Beneath the noise, there is a signal. A humble space for considered work.">
+    <meta property="og:image" content="https://www.ahmetcanyesildag.com/assets/images/og-card.jpg">
+    <meta property="og:url" content="https://www.ahmetcanyesildag.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ahmet Can Yeşildağ — Hospitality Leader, Educator, Founder">
+    <meta name="twitter:description" content="Beneath the noise, there is a signal. A humble space for considered work.">
+    <meta name="twitter:image" content="https://www.ahmetcanyesildag.com/assets/images/og-card.jpg">
+
+    <!-- Schema.org Person markup — Trust Signal Strategy, Layer 1 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ahmet Can Yeşildağ",
+      "url": "https://www.ahmetcanyesildag.com",
+      "image": "https://www.ahmetcanyesildag.com/assets/images/hero-poster.jpg",
+      "jobTitle": "Hospitality Leader, Educator, Founder",
+      "worksFor": { "@type": "Organization", "name": "Orophile Wellness Journeys" },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Cornell University, School of Hotel Administration" },
+        { "@type": "CollegeOrUniversity", "name": "Boğaziçi University" }
+      ],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "name": "Certified Hotel Administrator (CHA)" },
+        { "@type": "EducationalOccupationalCredential", "name": "Cornell General Managers Program" }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/ahmetcanyesildag",
+        "https://www.youtube.com/@wishsomebodytoldme",
+        "https://www.instagram.com/ahmetcanyesildag",
+        "https://github.com/HELLOACY"
+      ]
+    }
+    </script>
   <script src="/js/affiliate.js" defer></script>
     <!-- SearchAtlas OTTO SEO Pixel -->
     <script nowprocket nitro-exclude type="text/javascript" id="sa-dynamic-optimization" data-uuid="e87c934a-6320-48de-8d98-f09f7ed3a867" src="data:text/javascript;base64,dmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO3NjcmlwdC5zZXRBdHRyaWJ1dGUoIm5vd3Byb2NrZXQiLCAiIik7c2NyaXB0LnNldEF0dHJpYnV0ZSgibml0cm8tZXhjbHVkZSIsICIiKTtzY3JpcHQuc3JjID0gImh0dHBzOi8vZGFzaGJvYXJkLnNlYXJjaGF0bGFzLmNvbS9zY3JpcHRzL2R5bmFtaWNfb3B0aW1pemF0aW9uLmpzIjtzY3JpcHQuZGF0YXNldC51dWlkID0gImU4N2M5MzRhLTYzMjAtNDhkZS04ZDk4LWYwOWY3ZWQzYTg2NyI7c2NyaXB0LmlkID0gInNhLWR5bmFtaWMtb3B0aW1pemF0aW9uLWxvYWRlciI7ZG9jdW1lbnQuaGVhZC5hcHBlbmRDaGlsZChzY3JpcHQpOw=="></script>
@@ -493,42 +535,30 @@
 
 <body>
 
-  <!-- ══ HERO ════════════════════════════════════════════════════ -->
-  <section class="hero">
-    <div class="hero-left">
-      <span class="eyebrow">Hospitality Leader · Educator · Founder</span>
-      <h1 class="hero-name">
-        Ahmet Can
-        <span class="hero-name-line2">Yesildag</span>
-      </h1>
-      <p class="hero-tagline">Governing the standard of global hospitality for over three decades.</p>
-      <div class="hero-stats">
-        <div class="stat-item">
-          <h3 class="stat-number">30+</h3>
-          <p class="stat-label">Years Experience</p>
-        </div>
-        <div class="stat-item">
-          <h3 class="stat-number">5</h3>
-          <p class="stat-label">Continents</p>
-        </div>
-        <div class="stat-item">
-          <h3 class="stat-number">9K+</h3>
-          <p class="stat-label">Global Network</p>
-        </div>
-      </div>
-      <div class="hero-cta">
-        <a href="#contact" class="btn-primary">Work With Me</a>
-        <a href="#about" class="btn-outline">Discover More</a>
-      </div>
+  <!-- ══ HERO (cinematic video, v2) ════════════════════════════════ -->
+  <section class="acy-hero" role="region" aria-label="Welcome from Ahmet Can Yeşildağ">
+
+    <video
+      class="acy-hero__video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="/assets/images/hero-poster.jpg"
+      aria-hidden="true">
+      <source src="/assets/videos/acy_website_hero_final.mp4" type="video/mp4">
+    </video>
+
+    <div class="acy-hero__veil" aria-hidden="true"></div>
+
+    <div class="acy-hero__copy">
+      <p class="acy-hero__kicker">AHMET CAN YEŞİLDAĞ</p>
+      <h1 class="acy-hero__title">Beneath the noise,<br>there is a signal.</h1>
+      <p class="acy-hero__sub">Hospitality Leader &middot; Educator &middot; Founder</p>
+      <a class="acy-hero__cta" href="#collaborate">The door is open</a>
     </div>
-    <div class="hero-right">
-      <img class="hero-portrait"
-           src="images/hero-portrait.jpg?v=2"
-           alt="Ahmet Can Yesildag — Senior Hospitality Executive"
-           width="1062" height="1600" decoding="async">
-      <div class="hero-overlay"></div>
-      <span class="hero-caption">Cornell · Skål · Orophile · CHA</span>
-    </div>
+
   </section>
 
   <!-- ══ ABOUT ═══════════════════════════════════════════════════ -->
