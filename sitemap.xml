@@ -122,6 +122,22 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog Article: Digital Nomads Are Free Ambassadors (May 2026, English) -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/digital-nomads-free-ambassadors</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Article: Dijital Göçebeler (May 2026, Turkish sister) -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/dijital-gocebeler-ulkenin-ucretsiz-elcileridir</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Signals & Noise (Google-indexed organically — confirmed 2026-05-08) -->
   <url>
     <loc>https://ahmetcanyesildag.com/signals-and-noise</loc>
