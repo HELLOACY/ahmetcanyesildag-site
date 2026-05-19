@@ -26,6 +26,14 @@
     </image:image>
   </url>
 
+  <!-- Cause manifesto (new — May 2026) -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/cause</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Orophile brand page -->
   <url>
     <loc>https://ahmetcanyesildag.com/orophile</loc>
