@@ -232,3 +232,16 @@
   .acy-hero__ctas { opacity: 1; animation: none; }
   .acy-hero__sound-cta:hover { transform: none; }
 }
+
+
+/* Smaller play/pause sound CTA */
+.acy-hero__sound-cta {
+     gap: 0.3rem;
+     padding: 0.35rem 0.65rem;
+     font-size: 0.6rem;
+     letter-spacing: 0.14em;
+}
+.acy-hero__sound-cta-icon {
+     width: 0.7rem;
+     height: 0.7rem;
+}
