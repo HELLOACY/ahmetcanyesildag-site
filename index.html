@@ -564,12 +564,18 @@
       <h1 class="acy-hero__title">Beneath the noise,<br>there is a signal.</h1>
       <p class="acy-hero__sub">Hospitality Leader &middot; Educator &middot; Founder</p>
       <div class="acy-hero__ctas">
-          <a class="acy-hero__cta" href="#collaborate">The door is open</a>
+          <a class="acy-hero__cta" href="#ventures">The door is open</a>
           <button type="button" class="acy-hero__sound-cta" aria-label="Play hero video with sound">
             <svg class="acy-hero__sound-cta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M8 5v14l11-7z"/>
             </svg>
             <span>Play with sound</span>
+          </button>
+          <button type="button" class="acy-hero__sound-cta acy-hero__sound-cta--pause is-hidden" aria-label="Mute hero video audio" title="Mute audio · video keeps playing" aria-hidden="true" tabindex="-1">
+            <svg class="acy-hero__sound-cta-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M6 5h4v14H6zM14 5h4v14h-4z"/>
+            </svg>
+            <span>Pause sound</span>
           </button>
         </div>
     </div>
@@ -577,17 +583,24 @@
 
     <script>
       (function () {
-        var btn = document.querySelector(".acy-hero__sound-cta");
-        var vid = document.querySelector(".acy-hero__video");
-        if (!btn || !vid) return;
-        btn.addEventListener("click", function () {
+        var playBtn  = document.querySelector(".acy-hero__sound-cta:not(.acy-hero__sound-cta--pause)");
+        var pauseBtn = document.querySelector(".acy-hero__sound-cta--pause");
+        var vid      = document.querySelector(".acy-hero__video");
+        if (!playBtn || !pauseBtn || !vid) return;
+
+        function show(btn)  { btn.classList.remove("is-hidden"); btn.removeAttribute("aria-hidden"); btn.tabIndex = 0; }
+        function hide(btn)  { btn.classList.add("is-hidden");    btn.setAttribute("aria-hidden", "true"); btn.tabIndex = -1; }
+
+        playBtn.addEventListener("click", function () {
           vid.muted = false;
           try { vid.currentTime = 0; } catch (e) {}
-          var p = vid.play();
-          if (p && p.catch) p.catch(function(){});
-          btn.classList.add("is-hidden");
-          btn.setAttribute("aria-hidden", "true");
-          btn.tabIndex = -1;
+          var p = vid.play(); if (p && p.catch) p.catch(function(){});
+          hide(playBtn); show(pauseBtn); pauseBtn.focus();
+        });
+
+        pauseBtn.addEventListener("click", function () {
+          vid.muted = true;
+          hide(pauseBtn); show(playBtn); playBtn.focus();
         });
       })();
     </script>
