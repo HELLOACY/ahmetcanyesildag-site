@@ -1,0 +1,122 @@
+/* ============================================================
+   ACY HERO — custom overlay styles
+      Loaded after webflow.css so specificity wins.
+      ============================================================ */
+
+.acy-hero {
+    position: relative;
+    width: 100%;
+    min-height: 88vh;
+    overflow: hidden;
+    background: #0E0E10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.acy-hero__video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    z-index: 0;
+}
+
+.acy-hero__veil {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+          90deg,
+          rgba(14, 14, 16, 0.78) 0%,
+          rgba(14, 14, 16, 0.55) 45%,
+          rgba(14, 14, 16, 0.10) 100%
+        );
+    z-index: 1;
+}
+
+.acy-hero__copy {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+    padding: 6vh 6vw;
+    color: #F5EFE4;
+    font-family: Georgia, "Garamond", serif;
+}
+
+.acy-hero__kicker {
+    font-size: 0.85rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: #C26B3C;
+    margin: 0 0 1.5rem 0;
+    opacity: 0;
+    animation: acyFade 1.2s ease 0.4s forwards;
+}
+
+.acy-hero__title {
+    font-size: clamp(2.2rem, 5vw, 4.4rem);
+    line-height: 1.08;
+    font-weight: 500;
+    margin: 0 0 1.5rem 0;
+    color: #F5EFE4;
+    opacity: 0;
+    animation: acyFade 1.4s ease 1.2s forwards;
+}
+
+.acy-hero__sub {
+    font-size: 1rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #A89C8A;
+    margin: 0 0 2.5rem 0;
+    opacity: 0;
+    animation: acyFade 1.2s ease 2.0s forwards;
+}
+
+.acy-hero__cta {
+    display: inline-block;
+    padding: 0.9rem 1.6rem;
+    border: 1px solid #C26B3C;
+    color: #F5EFE4;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    transition: background 240ms ease, color 240ms ease;
+    opacity: 0;
+    animation: acyFade 1.2s ease 2.8s forwards;
+}
+.acy-hero__cta:hover {
+    background: #C26B3C;
+    color: #0E0E10;
+}
+
+@keyframes acyFade {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .acy-hero__video { display: none; }
+    .acy-hero {
+          background: #0E0E10 url("/assets/images/hero-poster.jpg") center / cover no-repeat;
+    }
+    .acy-hero__kicker,
+    .acy-hero__title,
+    .acy-hero__sub,
+    .acy-hero__cta { opacity: 1; animation: none; }
+}
+
+@media (max-width: 768px) {
+    .acy-hero { min-height: 78vh; }
+    .acy-hero__veil {
+          background: linear-gradient(
+                  180deg,
+                  rgba(14, 14, 16, 0.35) 0%,
+                  rgba(14, 14, 16, 0.85) 100%
+                );
+    }
+    .acy-hero__copy { padding: 8vh 6vw; }
+}
