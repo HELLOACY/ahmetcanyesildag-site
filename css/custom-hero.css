@@ -1,0 +1,246 @@
+/* ============================================================
+   ACY HERO — custom overlay styles
+      Loaded after webflow.css so specificity wins.
+      ============================================================ */
+
+.acy-hero {
+    position: relative;
+    width: 100%;
+    min-height: 88vh;
+    overflow: hidden;
+    background: #0E0E10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.acy-hero__video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    z-index: 0;
+}
+
+.acy-hero__veil {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+          90deg,
+          rgba(14, 14, 16, 0.78) 0%,
+          rgba(14, 14, 16, 0.55) 45%,
+          rgba(14, 14, 16, 0.10) 100%
+        );
+    z-index: 1;
+}
+
+.acy-hero__copy {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+    padding: 6vh 6vw;
+    color: #F5EFE4;
+    font-family: Georgia, "Garamond", serif;
+}
+
+.acy-hero__kicker {
+    font-size: 0.85rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: #C26B3C;
+    margin: 0 0 1.5rem 0;
+    opacity: 0;
+    animation: acyFade 1.2s ease 0.4s forwards;
+}
+
+.acy-hero__title {
+    font-size: clamp(2.2rem, 5vw, 4.4rem);
+    line-height: 1.08;
+    font-weight: 500;
+    margin: 0 0 1.5rem 0;
+    color: #F5EFE4;
+    opacity: 0;
+    animation: acyFade 1.4s ease 1.2s forwards;
+}
+
+.acy-hero__sub {
+    font-size: 1rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #A89C8A;
+    margin: 0 0 2.5rem 0;
+    opacity: 0;
+    animation: acyFade 1.2s ease 2.0s forwards;
+}
+
+.acy-hero__cta {
+    display: inline-block;
+    padding: 0.9rem 1.6rem;
+    border: 1px solid #C26B3C;
+    color: #F5EFE4;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    transition: background 240ms ease, color 240ms ease;
+    opacity: 0;
+    animation: acyFade 1.2s ease 2.8s forwards;
+}
+.acy-hero__cta:hover {
+    background: #C26B3C;
+    color: #0E0E10;
+}
+
+@keyframes acyFade {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .acy-hero__video { display: none; }
+    .acy-hero {
+          background: #0E0E10 url("/assets/images/hero-poster.jpg") center / cover no-repeat;
+    }
+    .acy-hero__kicker,
+    .acy-hero__title,
+    .acy-hero__sub,
+    .acy-hero__cta { opacity: 1; animation: none; }
+}
+
+@media (max-width: 768px) {
+    .acy-hero { min-height: 78vh; }
+    .acy-hero__veil {
+          background: linear-gradient(
+                  180deg,
+                  rgba(14, 14, 16, 0.35) 0%,
+                  rgba(14, 14, 16, 0.85) 100%
+                );
+    }
+    .acy-hero__copy { padding: 8vh 6vw; }
+}
+
+/* ────────────────────────────────
+   a11y: skip-link
+   Visible only on keyboard focus.
+   Pairs with <main id="content">.
+   ──────────────────────────────── */
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 9999;
+
+  padding: 0.75rem 1.25rem;
+  background: #0E0E10;
+  color: #F5EFE4;
+  border: 1px solid #C26B3C;
+  border-radius: 4px;
+
+  font-family: Georgia, "Garamond", serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: top 180ms ease;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  top: 1rem;
+  outline: 2px solid #C26B3C;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skip-link { transition: none; }
+}
+
+/* ────────────────────────────────
+   ACY HERO — CTA cluster + Play-with-sound
+   Side-by-side primary + secondary CTAs.
+   ──────────────────────────────── */
+
+.acy-hero__ctas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  opacity: 0;
+  animation: acyFade 1.2s ease 2.8s forwards;
+}
+
+.acy-hero__ctas .acy-hero__cta {
+  /* primary CTA keeps its own animation timing via its existing rule;
+     reset the per-button animation here since the wrapper handles fade-in */
+  opacity: 1;
+  animation: none;
+}
+
+.acy-hero__sound-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.95rem;
+
+  background: transparent;
+  border: 1px solid rgba(245, 239, 228, 0.40);
+  color: #F5EFE4;
+  font-family: Georgia, "Garamond", serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition:
+    background 240ms ease,
+    border-color 240ms ease,
+    color 240ms ease,
+    opacity 240ms ease,
+    transform 240ms ease;
+}
+.acy-hero__sound-cta:hover {
+  background: rgba(245, 239, 228, 0.08);
+  border-color: #F5EFE4;
+  transform: translateY(-1px);
+}
+
+.acy-hero__sound-cta:focus-visible {
+  outline: 2px solid #C26B3C;
+  outline-offset: 3px;
+}
+
+.acy-hero__sound-cta-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: currentColor;
+  flex: 0 0 auto;
+}
+
+.acy-hero__sound-cta.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .acy-hero__ctas { opacity: 1; animation: none; }
+  .acy-hero__sound-cta:hover { transform: none; }
+}
+
+
+/* Smaller play/pause sound CTA */
+.acy-hero__sound-cta {
+     gap: 0.3rem;
+     padding: 0.35rem 0.65rem;
+     font-size: 0.6rem;
+     letter-spacing: 0.14em;
+}
+.acy-hero__sound-cta-icon {
+     width: 0.7rem;
+     height: 0.7rem;
+}

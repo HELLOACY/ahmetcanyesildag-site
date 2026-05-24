@@ -1,0 +1,40 @@
+{
+  "_instructions": "Add new posts at the top of the 'posts' array. Each post auto-renders on the site. Fields: id (unique string), date (YYYY-MM-DD), type (Article|Insight|Leadership|Wellness|Education), title, excerpt (max 200 chars), url (full LinkedIn post URL), reactions (number), comments (number). Set 'pinned: true' to keep a post at top regardless of date.",
+  "lastUpdated": "2026-03-31",
+  "linkedinProfile": "https://www.linkedin.com/in/ahmetcanyesildag/",
+  "posts": [
+    {
+      "id": "wellness-tourism-leadership",
+      "date": "2026-03-28",
+      "type": "Insight",
+      "title": "The Rapid Expansion of Wellness Tourism",
+      "excerpt": "Wellness tourism is reshaping the hospitality landscape — a multi-trillion-dollar industry driven by a global shift toward preventative health and holistic self-care. Modern hospitality leaders are adapting by integrating regenerative practices and personalised services.",
+      "url": "https://www.linkedin.com/in/ahmetcanyesildag/",
+      "reactions": 103,
+      "comments": 17,
+      "pinned": false
+    },
+    {
+      "id": "orophile-mountain-wellness",
+      "date": "2026-03-20",
+      "type": "Wellness",
+      "title": "Orophile Journeys: Mountain Wellness Tourism Crafted by Hospitality Experts",
+      "excerpt": "Discover transformative mountain wellness experiences where world-class hospitality meets restorative adventure. Founded on 30+ years of international hotel management expertise — our signature retreats blend active exploration with deep restoration.",
+      "url": "https://orophilejourneys.com",
+      "reactions": 24,
+      "comments": 3,
+      "pinned": true
+    },
+    {
+      "id": "bosphorus-story",
+      "date": "2026-03-10",
+      "type": "Leadership",
+      "title": "Born on the Bosphorus — 30 Years of Global Hospitality",
+      "excerpt": "Born and raised on the Bosphorus shores of Istanbul, Ahmet brings over 30 years of international hospitality experience to his role as a restoration curator. From Istanbul to Baku, Riyadh to Toronto — each chapter shaped by service.",
+      "url": "https://www.linkedin.com/in/ahmetcanyesildag/",
+      "reactions": 44,
+      "comments": 1,
+      "pinned": false
+    }
+  ]
+}

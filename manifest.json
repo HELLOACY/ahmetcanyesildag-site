@@ -1,0 +1,36 @@
+{
+  "name": "Ahmet Can Yesildag — Global Hospitality Leader",
+  "short_name": "ACY",
+  "description": "Executive advisory through Greenmountains · Executive Consultancy and landscape-as-method advisory through Orophile · Wellness Journeys. Cornell GMP. 30 years of hospitality leadership across five continents.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#2D4A3E",
+  "lang": "en-CA",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/og-ahmet-can-yesildag.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "label": "Ahmet Can Yesildag — Authority Hub Homepage"
+    }
+  ]
+}

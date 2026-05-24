@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ahmetcanyesildag.com/images/hero-portrait.jpg</image:loc>
+      <image:title>Ahmet Can Yesildag — Global Hospitality Leader</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ahmetcanyesildag.com/images/radisson-award-2014.jpg</image:loc>
+      <image:title>Radisson Hotel Group Award — 2014</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ahmetcanyesildag.com/images/skal-president.jpg</image:loc>
+      <image:title>Skål International Presidency</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ahmetcanyesildag.com/images/cornell-class-2015.jpg</image:loc>
+      <image:title>Cornell University General Managers Program — Class of 2015</image:title>
+    </image:image>
+  </url>
+
+  <!-- Cause manifesto -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/cause</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Signals and Noise — book + audiobook landing -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/signals-and-noise</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Orophile · Wellness Journeys -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/orophile</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Speaking + executive education -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/speaking</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Reading Room (Books) -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/books</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Blog index -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Media -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/media</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Documents -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/documents</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Toolkit -->
+  <url>
+    <loc>https://ahmetcanyesildag.com/toolkit</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Blog articles -->
+
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/30-years-hotel-management-leadership</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/cornell-standards-canadian-classroom</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/digital-nomads-free-ambassadors</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/dijital-gocebeler-ulkenin-ucretsiz-elcileridir</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/excellence-governed-at-the-top</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://ahmetcanyesildag.com/blog/mountain-as-boardroom</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
